@@ -1,4 +1,4 @@
-baseURL: jacobeliason.com
+baseURL: "/"
 title: Jacob Eliason
 theme: hugo-theme-basic
 languageCode: en-us
