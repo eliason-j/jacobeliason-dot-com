@@ -14,7 +14,6 @@ taxonomies:
   
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
-
 params:
   menu:
     - name: blog
