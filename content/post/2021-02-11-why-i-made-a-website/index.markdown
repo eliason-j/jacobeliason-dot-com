@@ -6,6 +6,8 @@ slug: website-why
 tags: ["development"]
 categories: ["Development"]
 date: 2021-02-11
+output:
+  html_document
 ---
 
 ## Reasons for being
