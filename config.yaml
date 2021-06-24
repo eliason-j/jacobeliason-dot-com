@@ -1,0 +1,47 @@
+baseURL: https://www.example.com/
+title: Jacob Eliason
+theme: hugo-theme-basic
+languageCode: en-us
+googleAnalytics: UA-XXXXXXXXX-X
+enableEmoji: yes
+
+# copyright: © 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme
+  # Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>.
+
+description: Basic personal site theme styled with minimal tachyons, syntax highlighting,
+  and blog series configuration.
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+
+
+params:
+  menu:
+    - name: blog
+      url: post/
+    # - name: post series
+      # url: series/
+    - name: about
+      url: about/
+  # titleEmoji: ':tada:'
+  highlightjsVersion: "9.11.0"
+  highlightjsCDN: "//cdn.bootcss.com"
+  highlightjsLang: ["r", "yaml"]
+  highlightjsTheme: "github"
+  customCSS: ["css/overrides.css"]
+
+Permalinks:
+  post: post/:slug
+privacy:
+  googleAnalytics:
+    anonymizeIP: yes
+    respectDoNotTrack: yes
+    useSessionStorage: yes
+  twitter:
+    enableDNT: yes
+  youtube:
+    privacyEnhanced: yes
