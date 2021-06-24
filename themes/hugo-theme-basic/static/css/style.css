@@ -8,6 +8,7 @@ code {
   padding: 2px 4px;
   font-size: 90%;
   background-color: #eeeeee;
+  overflow-x: auto;
 }
 
 pre {
@@ -27,4 +28,12 @@ code {
   font-family: monocode, monospace;
   -webkit-font-smoothings: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: auto;
 }
+
+blockquote {
+     padding: .1px 20px;
+     margin: 0 0 20px;
+     font-size: 14px;
+     border-left: 5px solid #eee;
+} 

@@ -2,11 +2,10 @@
 title: Why I made a website
 author: Jacob Eliason
 description:
+slug: website-why
 tags: ["development"]
 categories: ["Development"]
 date: 2021-02-11
-html_document:
-    css: "style.css"
 ---
 
 ## Reasons for being
