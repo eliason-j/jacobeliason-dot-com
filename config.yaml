@@ -20,7 +20,6 @@ params:
       url: post/
     - name: about
       url: about/
-  
 
 Permalinks:
   post: post/:slug
