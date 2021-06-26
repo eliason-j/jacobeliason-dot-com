@@ -165,9 +165,13 @@ Because I'm trying to wrap this up, I'm not going to get into whether that paper
 
 In conclusion, I think I'd describe this estimate as flawed, but improved. I think it better accounts for some variability due to non-response, but probably still fails to account for variability in other ways. My code for the new weighting scheme can be found along with the code for this post on [my Github](https://github.com/eliason-j/jacobeliason-dot-com/tree/main/content/post/2021-06-25-how-many-young-mormons-are-queer). If anyone has any feedback or ideas for improvement about anything I've done here, I'd love if you'd leave a comment or contact me directly at `jacobeliason at gmail dot com`.
 
-[^pid]: For Party ID, this is true both for the specific population target I selected and for how I calculated Party ID using Nationscape variables.
-[^rmse]: I've seen RMSE used for all kinds of predictive analytics but I have no idea if this is a real thing w.r.t. weighting schemes. Feel free to chime in. The point here was just to somehow describe the differences between those three methods in a single metric.
+
+[^pid]:For Party ID, this is true both for the specific population target I selected and for how I calculated Party ID using Nationscape variables.
+
+[^rmse]:I've seen RMSE used for all kinds of predictive analytics but I have no idea if this is a real thing w.r.t. weighting schemes. Feel free to chime in. The point here was just to somehow describe the differences between those three methods in a single metric.
+
 [^caveat]:In fact, one other potentially important caveat is that this Nationscape sample may overestimate the prevalence of different sexual identities across the board. One data point for that hypothesis is that Nationscape LGB estimates by generation were uniformly about 2 percentage points higher than what Gallup found for each generation in response to the same question [earlier this year](https://news.gallup.com/poll/329708/lgbt-identification-rises-latest-estimate.aspx).
+
 [^female]:There certainly are issues with representativeness there too—68% of respondents, for example, were female (likely inflating the estimate for queer students, since it appears women are [more often](https://en.wikipedia.org/wiki/Bisexuality#Demographics_and_prevalence) bisexual than men).
 
 
