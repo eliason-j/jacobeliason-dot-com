@@ -168,7 +168,7 @@ In conclusion, I'd describe this estimate as flawed but improved. I think it bet
 
 [^pid]:For Party ID, this is true both for the specific population target I selected and for how I calculated Party ID using Nationscape variables.
 
-[^rmse]:I've seen RMSE used for all kinds of predictive analytics but I have no idea if this is a real thing w.r.t. weighting schemes. Feel free to chime in. The point here was just to somehow describe the differences between those three methods in a single metric.
+[^rmse]:I've used RMSE for validating predictions before but I have no idea if this is a real thing w.r.t. weighting schemes. Feel free to chime in. The point here was just to somehow describe the differences between those three methods in a single metric.
 
 [^caveat]:One other potentially important caveat is that this Nationscape sample may overestimate the prevalence of different sexual identities across the board. One data point for that hypothesis is that Nationscape LGB estimates by generation were uniformly about 2 percentage points higher than what Gallup found for each generation in response to the same question [earlier this year](https://news.gallup.com/poll/329708/lgbt-identification-rises-latest-estimate.aspx).
 
