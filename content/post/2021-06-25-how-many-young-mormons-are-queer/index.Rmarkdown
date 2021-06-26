@@ -25,7 +25,7 @@ import_better_type()
 
 ## The problem
 
-According to the Nationscape Representativeness Assessment (included with data download), survey responses are weighted to be representative of the US population. The assessment demonstrates through various comparisons to external sources that "the methodology employed in Nationscape generates estimates of *general population characteristics* [emphasis added] that are...closely aligned with government survey benchmarks." The 
+According to the Nationscape Representativeness Assessment (included with data download), survey responses are weighted to be representative of the US population. The assessment demonstrates through various comparisons to external sources that "the methodology employed in Nationscape generates estimates of *general population characteristics* [emphasis added] that are...closely aligned with government survey benchmarks." 
 
 As Jana explains in the update to her original post, the problem is that while the weighted responses from the Nationscape dataset as a whole do a reasonably good job at describing the "general population," there's no reason to expect that a subset of the data will do the same for a corresponding smaller population.
 
@@ -401,6 +401,6 @@ In conclusion, I think I'd describe this estimate as flawed, but improved. I thi
 
 [^caveat]:In fact, one other potentially important caveat is that this Nationscape sample may overestimate the prevalence of different sexual identities across the board. One data point for that hypothesis is that Nationscape LGB estimates by generation were uniformly about 2 percentage points higher than what Gallup found for each generation in response to the same question [earlier this year](https://news.gallup.com/poll/329708/lgbt-identification-rises-latest-estimate.aspx).
 
-[^female]:There certainly are issues with representativeness there too—68% of respondents, for example, were female (likely inflating the estimate for queer students, since it appears women are [more often](https://en.wikipedia.org/wiki/Bisexuality#Demographics_and_prevalence) bisexual than men).
+[^female]:There certainly are issues with representativeness there too—68% of respondents, for example, were female (likely inflating the estimate for queer students, since it appears [more](https://en.wikipedia.org/wiki/Bisexuality#Demographics_and_prevalence) women are bisexual than men).
 
 
