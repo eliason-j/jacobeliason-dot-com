@@ -14,7 +14,7 @@ output:
 
 
 
-I like to run. When I run, I use [Strava](https://www.strava.com/) to log my activity. In honor of recently running my one-thousandth mile on Strava, I thought I'd do a write up for the steps I use to process my user data in R. The data Strava makes available is granular and can be used for all kinds of fun things after the steps detailed here.
+Hi, I'm Jacob and I like to run. When I run, I use [Strava](https://www.strava.com/) to log my activity. In honor of recently running my one-thousandth mile on Strava, I thought I'd do a write up for the steps I use to process my user data in R. The data Strava makes available is granular and can be used for all kinds of fun things after the steps detailed here.
 
 ![](2021-04-30-processing-strava-data-nyc.png)
 
