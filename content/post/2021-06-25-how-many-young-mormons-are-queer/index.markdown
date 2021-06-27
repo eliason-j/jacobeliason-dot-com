@@ -111,7 +111,7 @@ These obviously are a much closer match. Going one step further, I highlight the
 |Nationscape weights |0.0600 |
 |Unweighted          |0.0541 |
 
-Surprisingly, the Nationscape weights actually make Mormon estimates *less* like the Mormon population targets than using no weights at all would. 
+Interestingly, the Nationscape weights actually make Mormon estimates *less* like the Mormon population targets than using no weights at all would. 
 
 ## New results
 
@@ -153,7 +153,7 @@ The new estimate for LGB-identifying US Gen Z Mormons is 14% (95% CI 10.4%, 18.2
 
 ## Discussion
 
-This estimate is 4 percentage points lower than the original estimate of 18%. The "LGB+Other" estimate is 15%, which is 7 percentage percentage points lower than the original estimate of 22%. This seems to be somewhat less of a difference than asserted in Jana's update to her original post, where she predicted that the true value is "around 7 to 9 percentage points lower [than was found using the default Nationscape weights]." I'd be interested to know whether her updated prediction is based on qualitative or quantitative methods, and in the latter case, what improvements she made. I'm not necessarily aware of what external considerations may be necessary for this analysis beyond what's specified in the documentation for this dataset.
+This estimate is 4 percentage points lower than the original estimate of 18%. The "LGB+Other" estimate is 15%, which is 7 percentage percentage points lower than the original estimate of 22%. This seems to be somewhat less of a difference than asserted in Jana's update to her original post, where she predicted that the true value is "around 7 to 9 percentage points lower [than was found using the default Nationscape weights]." I'd be interested to know what methods informed her updated prediction. I know I'm not necessarily aware of what external considerations may be necessary for this analysis beyond what's specified in the documentation for this dataset.
 
 However, my estimate sounds like it's at least in the ballpark—and in any case, we're talking about pretty large standard errors here. I'm also again very open to lots of potential improvements to this analysis, particularly in regards to the selection of population targets. If I had more time, I'd especially get further input in the decisions about Party ID[^pid], for which rates have famously [changed](https://www.pewresearch.org/politics/2018/03/20/1-trends-in-party-affiliation-among-demographic-groups/) in interesting ways in the past decade and during the era of Donald Trump among American Mormons in particular. I'm further interested in better describing what kinds of bias remain after implementing this kind of weighting process. Even with the recommended addition of the variance inflation factor (and with intervals as large as they are), I can't help but feel that I'm still underestimating the standard errors, that there's more variability than these standard calculations capture. That, however, is also more broadly true to some extent across the survey research industry.[^caveat]
 
@@ -168,7 +168,7 @@ In conclusion, I'd describe this estimate as flawed but improved. I think it bet
 
 [^pid]:For Party ID, this is true both for the specific population target I selected and for how I calculated Party ID using Nationscape variables.
 
-[^rmse]:I've used RMSE for validating predictions before but I have no idea if this is a real thing w.r.t. weighting schemes. Feel free to chime in. The point here was just to somehow describe the differences between those three methods in a single metric.
+[^rmse]:I've used RMSE for validating predictions before but I have no idea if this is a thing w.r.t. weighting schemes. Feel free to chime in. The point here was just to somehow describe the differences between those three methods in a single metric.
 
 [^caveat]:One other potentially important caveat is that this Nationscape sample may overestimate the prevalence of different sexual identities across the board. One data point for that hypothesis is that Nationscape LGB estimates by generation were uniformly about 2 percentage points higher than what Gallup found for each generation in response to the same question [earlier this year](https://news.gallup.com/poll/329708/lgbt-identification-rises-latest-estimate.aspx).
 
