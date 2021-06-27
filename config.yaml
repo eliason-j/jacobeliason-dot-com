@@ -2,7 +2,7 @@ baseURL: "/"
 title: Jacob Eliason
 theme: hugo-theme-basic
 languageCode: en-us
-googleAnalytics: UA-XXXXXXXXX-X
+googleAnalytics: UA-41951320-2
 enableEmoji: yes
 
 description: Personal site with space for blog posts.
