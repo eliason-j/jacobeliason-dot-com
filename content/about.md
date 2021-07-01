@@ -3,7 +3,7 @@ date: "2021-06-24"
 title: Hello.
 ---
 
-#### I am a data analyst with experience in data visualization, statistical modeling, and survey research.
+#### I am a data analyst with experience in survey research and R programming.
 
 I graduated in 2019 with a B.S. in statistical science from Brigham Young University with minors in political science and mathematics. While in school, I worked on sports analytics and international development projects as a research assistant in the statistics and political science departments respectively. 
 
