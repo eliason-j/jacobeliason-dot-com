@@ -20,6 +20,8 @@ params:
       url: post/
     - name: about
       url: about/
+    # - name: resume
+    #   url: resume/
   mathjax: true
 
 Permalinks:
