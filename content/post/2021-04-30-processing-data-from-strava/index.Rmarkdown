@@ -1,5 +1,5 @@
 ---
-title: Strava data walk-through
+title: Preparing data from Strava for analysis
 author: 'Jacob Eliason'
 date: '2021-04-30'
 slug: processing-strava-data
