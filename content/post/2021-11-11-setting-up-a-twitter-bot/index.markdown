@@ -13,7 +13,7 @@ output:
 ---
 
 ## What
-Last month, I made a [Twitter bot](https://twitter.com/texturesofut) using RStudio. Every few hours, the bot posts a satellite image and a Wikipedia reference for a given pair of coordinates from my home state of Utah. The bot is inspired by [@mattdray](https://twitter.com/mattdray)'s [@londonmapbot](https://twitter.com/londonmapbot).
+- Last month, I made a [Twitter bot](https://twitter.com/texturesofut) using RStudio. Every few hours, the bot posts a satellite image and a Wikipedia reference for a given pair of coordinates from my home state of Utah. The bot is inspired by [@mattdray](https://twitter.com/mattdray)'s [@londonmapbot](https://twitter.com/londonmapbot).
 
 ## How
 -  I started by forking Matt's [repository](https://github.com/matt-dray/londonmapbot) and following his instructions [here](https://www.rostrum.blog/2020/09/21/londonmapbot/).
