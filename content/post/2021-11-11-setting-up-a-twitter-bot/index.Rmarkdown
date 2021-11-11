@@ -35,6 +35,8 @@ Last month, I made a [Twitter bot](https://twitter.com/texturesofut) using RStud
 
 ## Some of my favorite recent textures
 
+Note: the Hugo shortcode I used to embed the tweets below apparently doesn't render images on Firefox.
+
 {{< tweet 1456781196319330307 >}}
 {{< tweet 1455780540586496007 >}}
 {{< tweet 1455607736255746052 >}}
