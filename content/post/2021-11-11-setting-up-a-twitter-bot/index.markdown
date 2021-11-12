@@ -22,6 +22,7 @@ output:
   - I found a [`.shp` file](https://en.wikipedia.org/wiki/Shapefile) from [gis.utah.gov](https://gis.utah.gov/data/boundaries/citycountystate/) and use that file and the [`sf`](https://r-spatial.github.io/sf/) package to test if the coordinate pair is inside or outside state boundaries. If necessary, I draw new pairs until I find one within state boundaries.
   - I request larger (1280x1280) images from Mapbox.
   - Wikipedia has a [feature](https://en.wikipedia.org/wiki/Special:Nearby) that shows all pages within 10 km of a given point (such as your current location). [Apparently](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Geographical_coordinates#Usage_guidelines), Wikipedia pages for any "location, structure, or geographic feature that is more or less fixed in one place" have latitude and longitude coordinates encoded. Who knew? It's possible, then, to paste any coordinate pair into a URL and see what's nearby. I do that, and add [`RSelenium`](https://github.com/ropensci/RSelenium) functions to my script to return the text from the first hit on the resultant page. This text is appended to the body of the tweet as a "Nearby point of interest."
+  - I add a hashtag to the body of the tweet to make the account a little more discoverable. The hashtag is randomly selected from a list of a dozen or so that I thought were relevant to the account's content.
   - I use [@hadleywickham](https://twitter.com/hadleywickham)'s [`emo`](https://github.com/hadley/emo) package to add emoji to brighten up the final result.
   
 ## Why
